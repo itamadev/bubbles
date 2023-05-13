@@ -6,8 +6,8 @@ metadata:
     app.kubernetes.io/name: service
     app.kubernetes.io/instance: controller-manager-metrics-service
     app.kubernetes.io/component: kube-rbac-proxy
-    app.kubernetes.io/created-by: bubblesopr
-    app.kubernetes.io/part-of: bubblesopr
+    app.kubernetes.io/created-by: bubbles
+    app.kubernetes.io/part-of: bubbles
     app.kubernetes.io/managed-by: kustomize
   name: controller-manager-metrics-service
   namespace: system

@@ -5,7 +5,7 @@
 domain: bubbles.dev
 layout:
 - go.kubebuilder.io/v4
-projectName: bubblesopr
+projectName: bubbles
 repo: bubbles.dev/codebubble
 resources:
 - api:
