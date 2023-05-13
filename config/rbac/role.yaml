@@ -1,0 +1,33 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - codebubble.bubbles.dev
+  resources:
+  - codebubbles
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - codebubble.bubbles.dev
+  resources:
+  - codebubbles/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - codebubble.bubbles.dev
+  resources:
+  - codebubbles/status
+  verbs:
+  - get
+  - patch
+  - update

@@ -1,0 +1,27 @@
+# permissions for end users to view codebubbles.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: codebubble-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: bubblesopr
+    app.kubernetes.io/part-of: bubblesopr
+    app.kubernetes.io/managed-by: kustomize
+  name: codebubble-viewer-role
+rules:
+- apiGroups:
+  - codebubble.bubbles.dev
+  resources:
+  - codebubbles
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - codebubble.bubbles.dev
+  resources:
+  - codebubbles/status
+  verbs:
+  - get

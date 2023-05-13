@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- codebubble_v1alpha1_codebubble.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

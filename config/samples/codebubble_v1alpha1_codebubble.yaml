@@ -1,0 +1,12 @@
+apiVersion: codebubble.bubbles.dev/v1alpha1
+kind: CodeBubble
+metadata:
+  labels:
+    app.kubernetes.io/name: codebubble
+    app.kubernetes.io/instance: codebubble-sample
+    app.kubernetes.io/part-of: bubblesopr
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: bubblesopr
+  name: codebubble-sample
+spec:
+  # TODO(user): Add fields here
