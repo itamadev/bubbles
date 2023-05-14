@@ -1,4 +1,6 @@
 # Bubbles
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fitamadev%2Fbubbles.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fitamadev%2Fbubbles?ref=badge_shield)
+
 
 Code Bubbles is a free and open-source application for deploying and managing dev environment for on-prem usage.
 
@@ -27,3 +29,6 @@ npm run dev
 ## License
 
 Bubbles is licensed under the [Apache Version 2.0 License](./LICENSE.md).
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fitamadev%2Fbubbles.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fitamadev%2Fbubbles?ref=badge_large)
